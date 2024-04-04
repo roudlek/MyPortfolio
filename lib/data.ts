@@ -1,11 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaJava, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import ecommerceHome from "@/public/projectImages/ecommerce.png";
+import DreamsClub from "@/public/projectImages/DreamsClub.png";
+import Perfum from "@/public/projectImages/Perfum.png";
+import nike from "@/public/projectImages/nike.png";
 export const links = [
   {
     name: "Home",
@@ -16,16 +16,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,73 +35,92 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Alx for ALX AiCE - AI Career Essentials student",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "• Progressed from AI basics to proficiency, upgrading my skills in Google Tools, Chat GPT, prompt engineering, and data analysis. " +
+      "\n" +
+      "• Enhanced proficiency in work plan management, time management, problem-solving, proactive communication, and collaboration with peers using Google Meet.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024/03 - 2024/04",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intern Java Back-end developer @ SQLI",
+    location: "Rabat",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "• gained experience in java, spring boot, SAP hybris, Git, mysql, Postman, Selenium, jenkins" +
+      "\n" +
+      "• Contributed to the test of Nespresso Maroc ecommerce website" +
+      "\n" +
+      "• Actively contributed to team meetings to discuss best development practices" +
+      "\n" +
+      "• Developed my communication skills and speed of learning and more ...",
+
+    icon: React.createElement(FaJava),
+    date: "2023/03 - 2023/09",
+  },
+  {
+    title: "Graphic designer",
+    location: "Rabat",
+    description:
+      "• I worked as a graphic designer in a printing house where i upskilled my design level using Adobe Illustrator.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023/01 - 2023/03",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Diploma of technician specialized in computer development",
+    location: "Rabat",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "• Learned algorithms, data structures and web development languages such as: Html, Css, Javascript",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "Ecommerce application",
+    description: "Next js Full stack Ecommerce application",
+    tags: ["React", "Next.js", "Tailwind", "Resend", "Vercel"],
+    imageUrl: ecommerceHome,
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "Dreams Club",
+    description: "Modern weightlifting club platform",
+    tags: ["Html", "Css", "Javascript"],
+    imageUrl: DreamsClub,
   },
   {
-    title: "Word Analytics",
+    title: "Responsive Perfum Design",
+    description: "Frontend Mentor - Product preview card component challenge",
+    tags: ["React", "Next.js", "Tailwind", "Flexbox"],
+    imageUrl: Perfum,
+  },
+  {
+    title: "Nike product clone section",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Replicating Nike products with React, Next.js, Tailwind, and Grid for seamless browsing.",
+    tags: ["React", "Next.js", "Tailwind", "Grid"],
+    imageUrl: nike,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Tailwind",
   "JavaScript",
   "TypeScript",
   "React",
+  "Redux",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Git",
+  "java",
+  "Spring Boot",
+  "Mysql",
+  "Postman",
+  "Docker",
+  "Jenkins",
 ] as const;
