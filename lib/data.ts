@@ -45,18 +45,20 @@ export const experiencesData = [
     date: "2024/03 - 2024/04",
   },
   {
-    title: "Intern Java Back-end developer @ SQLI",
+    title: "Intern Front end Web developer @ SQLI",
     location: "Rabat",
     description:
-      "• gained experience in java, spring boot, SAP hybris, Git, mysql, Postman, Selenium, jenkins" +
+      "• Gained more experience in React, creating user interface using components and hooks along side with TailwindCss, delivering responsive interfaces with user experience." +
       "\n" +
       "• Contributed to the test of Nespresso Maroc ecommerce website" +
       "\n" +
       "• Actively contributed to team meetings to discuss best development practices" +
       "\n" +
+      "• Collaborating on a team of 25 developer and Implemented version control using Git with Github using Git commands" +
+      "\n" +
       "• Developed my communication skills and speed of learning and more ...",
 
-    icon: React.createElement(FaJava),
+    icon: React.createElement(FaReact),
     date: "2023/03 - 2023/09",
   },
   {
@@ -83,18 +85,21 @@ export const projectsData = [
     description: "Next js Full stack Ecommerce application",
     tags: ["React", "Next.js", "Tailwind", "Resend", "Vercel"],
     imageUrl: ecommerceHome,
+    projectLink: "https://e-commerce-web-app-with-react-next-js-tailwind-css-b3jq.vercel.app/",
   },
   {
     title: "Dreams Club",
     description: "Modern weightlifting club platform",
     tags: ["Html", "Css", "Javascript"],
     imageUrl: DreamsClub,
+    projectLink: "",
   },
   {
     title: "Responsive Perfum Design",
     description: "Frontend Mentor - Product preview card component challenge",
     tags: ["React", "Next.js", "Tailwind", "Flexbox"],
     imageUrl: Perfum,
+    projectLink: "",
   },
   {
     title: "Nike product clone section",
@@ -102,6 +107,7 @@ export const projectsData = [
       "Replicating Nike products with React, Next.js, Tailwind, and Grid for seamless browsing.",
     tags: ["React", "Next.js", "Tailwind", "Grid"],
     imageUrl: nike,
+    projectLink: "",
   },
 ] as const;
 
